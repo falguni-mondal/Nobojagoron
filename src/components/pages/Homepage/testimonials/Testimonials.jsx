@@ -8,7 +8,7 @@ import user from "../../../../assets/image/person.png"
 
 const Testimonials = () => {
     return (
-        <section className='testimonials-section px-5 mt-28 overflow-hidden'>
+        <section className='testimonials-section px-5 mt-28 overflow-x-hidden pb-5'>
             <h2 className='w-full flex justify-center gap-3 eng font-medium text-[2rem] mb-3 uppercase bengali'><span className='bengali'>-:</span> সামাজিক সমর্থন <span className='bengali'>:-</span></h2>
             <Swiper
                 modules={[Autoplay, EffectCards]}
