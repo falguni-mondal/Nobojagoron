@@ -17,7 +17,7 @@ const Moments = () => {
             <img className='rounded object-cover h-[150px] col-span-4' src={m1} alt="" />
         </div>
         <div className="buttons mt-3">
-            <Link to="/gallery" className='eng font-medium px-4 py-3 bg-amber-400 flex justify-center items-center rounded text-[0.95rem]'>Explore Gallery..</Link>
+            <Link to="/gallery" className='eng font-medium px-4 py-3 bg-amber-400 flex justify-center items-center rounded text-[0.95rem]'>Explore Gallery</Link>
         </div>
     </section>
   )
