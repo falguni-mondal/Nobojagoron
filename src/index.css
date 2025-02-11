@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: ben_h;
+    src: url("./assets/fonts/FN_Hasan_Matribhumi_Unicode.ttf");
+}
+@font-face {
+    font-family: ben;
+    src: url("./assets/fonts/L52_Lipika_Azhari_Light.woff2");
+}
+
+.eng{
+    font-family: "Montserrat", sans-serif;
+}
+.bengali{
+    font-family: ben;
+}
+.ben-head{
+    font-family: ben_h;
+}
+/* .eng-m{
+    font-family: eng_m;
+} */
+
+*{
+    font-family: "Montserrat", sans-serif;
+    user-select: none;
+}
+
+.shadow-min{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#alpana{
+    animation: circle 40s infinite linear;
+}
+@keyframes circle {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#maa-saraswati{
+    animation: up-down 8s infinite alternate;
+}
+@keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+#hero-section{
+    background-image: linear-gradient(#ffae00 60%, #fffbea);
+}
+.swiper-conteiner{
+    overflow: hidden;
+}
+.continuous-slider .swiper-wrapper {
+    transition-timing-function: linear !important;
+  }
+.member-img-overlay{
+    background-image: linear-gradient(#ffffff00 60%, #00000063);
+}
+.swiper-overlay{
+    background-image: linear-gradient(to right, #fffbea 5%, #00000000 20% 85%, #fffbea 95%);
+}
+.testimonial-card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
