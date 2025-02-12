@@ -7,7 +7,7 @@ import { BiDonateHeart } from "react-icons/bi";
 import { LuCircleUser } from "react-icons/lu";
 import { Link } from 'react-router-dom';
 
-const NavMenu = () => {
+const NavMenu = ({revealSetter}) => {
     const navOptions = [
         {
             label: "home",
@@ -33,20 +33,15 @@ const NavMenu = () => {
             label: "donate",
             icon: BiDonateHeart,
             path: "/donate"
-        },
-        {
-            label: "account",
-            icon: LuCircleUser,
-            path: "/auth"
-        },
+        }
     ]
   return (
     <div className='nav-menu grid grid-cols-3 place-items-center text-white gap-y-8 p-5'>
         {
             navOptions.map(({label, icon: Icon, path}) => (
-                <Link to={path} key={label} className="w-fit h-fit flex flex-col items-center">
-                    <Icon className="text-[1.7rem]" />
-                    <p className='text-[0.85rem] capitalize'>{label}</p>
+                <Link onClick={()=> revealSetter(false)} to={path} key={label} className="w-fit h-fit flex flex-col items-center">
+                    <Icon className="text-[1.5rem]" />
+                    <p className='text-[0.75rem] capitalize'>{label}</p>
                 </Link>
             ))
         }

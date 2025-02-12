@@ -38,8 +38,8 @@ const Nav = () => {
           <GrAppsRounded />
         </div>
       </div>
-      <div ref={menuRef} className={`nav-menu-container on-menu absolute w-[94.7vw] h-[166px] ${reveal ? "top-[-170px]" : "top-[200px] opacity-0"} left-[50%] -translate-x-[50%] bg-[#000000e7] backdrop-blur-xl z-[-1] rounded-2xl transition-all duration-500`}>
-        <NavMenu />
+      <div ref={menuRef} className={`nav-menu-container on-menu absolute w-[94.7vw] h-[166px] ${reveal ? "top-[-170px]" : "top-[-115px] opacity-0"} left-[50%] -translate-x-[50%] bg-[#000000e7] backdrop-blur-xl z-[-1] rounded-2xl transition-all duration-500`}>
+        <NavMenu revealSetter={setReveal} />
       </div>
     </div>
   )

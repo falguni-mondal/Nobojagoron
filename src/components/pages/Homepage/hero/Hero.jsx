@@ -3,7 +3,7 @@ import saraswati from '../../../../assets/image/saraswati.png';
 import alpana from '../../../../assets/image/alpana.png';
 import ghot from '../../../../assets/image/ghot.png';
 import puja from '../../../../assets/image/puja.png';
-import { MdKeyboardArrowDown } from "react-icons/md";
+// import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Hero = () => {
   return (

@@ -8,8 +8,9 @@ import user from "../../../../assets/image/person.png"
 
 const Testimonials = () => {
     return (
-        <section className='testimonials-section px-5 mt-28 overflow-x-hidden pb-5'>
-            <h2 className='w-full flex justify-center gap-3 eng font-medium text-[2rem] mb-3 uppercase bengali'><span className='bengali'>-:</span> সামাজিক সমর্থন <span className='bengali'>:-</span></h2>
+        <section className='testimonials-section w-full flex flex-col items-center px-5 mt-28 overflow-x-hidden pb-5'>
+            {/* <h2 className='w-full flex justify-center gap-3 eng font-medium text-[2rem] mb-3 uppercase bengali'><span className='bengali'>-:</span> সামাজিক সমর্থন <span className='bengali'>:-</span></h2> */}
+            <h2 className='w-full flex justify-center gap-3 eng font-medium text-[2rem] mb-3 uppercase bengali'><span className='bengali'>-:</span> সামাজিক মতামত <span className='bengali'>:-</span></h2>
             <Swiper
                 modules={[Autoplay, EffectCards]}
                 autoplay={{
@@ -79,6 +80,7 @@ const Testimonials = () => {
                     </div>
                 </SwiperSlide>
             </Swiper>
+            <button className='px-6 py-2.5 bg-amber-400 rounded-md mt-5 font-medium'>মতামত দিন</button>
         </section>
     )
 }

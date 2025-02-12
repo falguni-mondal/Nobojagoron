@@ -14,8 +14,8 @@ const About = () => {
                 নবজাগরণ সংঘ দুর্গাপুরের রঘুনাথপুরে অবস্থিত একটি প্রাণবন্ত সম্প্রদায় সংগঠন, যা ঐক্য, সাংস্কৃতিক উদযাপন এবং সামাজিক সম্প্রীতি বৃদ্ধিতে নিবেদিতপ্রাণ। ২০২১ সাল থেকে আমরা সরস্বতী পূজা আয়োজন করে আসছি, যা একটি ছোট উদ্যোগ হিসেবে শুরু হয়েছিল কিন্তু বছরের পর বছর দ্রুত ভাবে একটি বড় উৎসবে পরিণত হয়, যেটি আমাদের স্থানীয় সমাজ থেকে প্রচুর জনপ্রিয়তা এবং সমর্থন অর্জন করে।
             </p>
             <div className="buttons mt-3 flex gap-2">
-                <Link to="/about" className='eng font-medium w-[120px] py-2 border-[1.5px] border-amber-400 flex justify-center items-center rounded text-[0.95rem]'>Explore Us</Link>
-                <Link to="/signup" className='eng font-medium w-[120px] py-2 bg-amber-400 flex justify-center items-center rounded text-[0.95rem]'>Join Us</Link>
+                <Link to="/about" className='eng font-medium w-[120px] py-2 border-[1.5px] border-amber-400 flex justify-center items-center rounded text-[0.95rem]'>আরও দেখুন</Link>
+                <Link to="/signup" className='eng font-medium w-[120px] py-2 bg-amber-400 flex justify-center items-center rounded text-[0.95rem]'>সদস্য হন</Link>
             </div>
         </section>
     )
